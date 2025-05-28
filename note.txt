@@ -1,0 +1,66 @@
+
+
+
+hành khách
+
+địa điểm (bến bắt đầu & bến kết thúc)
+
+nhà xe
+
+xe bus
+
+tài xế + lơ xe (chỉ thêm vào để hoàn thiện chuyến xe không đi sâu)
+
+vé
+
+chuyến xe
+
+
+(thêm)
+hệ thống thanh toán
+
+khuyến mãi / hoàn vé
+
+AI gợi ý chuyến xe
+
+(luồng)
+đầu tiên là nhà xe sẽ đến đăng ký với bến xe và cung cấp một số chuyến xe của họ
+bến xe xác nhận nhà xe này, và đăng thông tin các chuyến xe lên trang web của họ
+hành khách sẽ vào trang web của bến xe, chọn 1 chuyến xe và điền đầy đủ thông tin
+nhà xe sẽ lấy thông tin chi tiết chuyến xe để hiển thị lên cho khách hàng
+hành khách thanh toán và xác nhận thông tin vé xe hiển thị trên app hoặc qua email
+bến xe sẽ gửi thông tin qua cho nhà xe, nhà xe cập nhật hành khách trên chuyến xe của mình
+
+
+tk nha xe
+thanhbuoi@gmail.com
+mk 
+12345678
+
+tk admin
+admin@admin.com
+mk 
+12345678
+
+trang admin có thông tin admin
+quản lý nhà xe
+quản lý người dùng
+quản lý chuyến xe
+quản lý vé xe
+
+
+các trạng thái của chuyến đi
+
+chờ admin Duyệt
+đang nhận khách
+bắt đầu đang chạy
+chuyến đã xong
+
+
+# phải xem các chuyến này nó vượt ngày thì phải chuyển trạng thái sang completed (DONE)
+# filter chuyến phải trừ chuyến bắt đầu (DONE)
+# hmm, khi mua chuyến xong phải lưu xuống db và trong tab vé của admin phải có thông tin đó  (DONE)
+# validate các thứ nữa (DONE)
+# email (DONE)
+# rating
+# nghĩ cách xuất excel hoặc là thêm tab cho ông nhà xe để xem thông tin khách của mình 
