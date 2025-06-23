@@ -70,7 +70,7 @@ async def get_all_routes_service():
         to_location = await get_location_by_id(route["to"])
         route["from"] = from_location.name
         route["to"] = to_location.name
-        route["name"] = f"{route["from"]} - {route["to"]}"
+        route["name"] = f"{route['from']} - {route['to']}"
     return routes
 
 
@@ -108,7 +108,7 @@ async def get_all_trips_service(company_id: str = None,
             "rating": trip["rating"],
             "price": trip["price"],
             "seats": bus["seats"],
-            "bus": f"{bus["name"]} ({bus["license_plate"]})",
+            "bus": f"{bus['name']} ({bus['license_plate']})",
             "bus_id": str(trip["bus_id"]),
             "seats_available": bus["seats"] - len(occupied_seats),
             "date": formatted_date,
